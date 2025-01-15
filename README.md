@@ -47,7 +47,7 @@ La simulation peut s'interrompre sous les conditions suivantes :
 ## Prérequis
 
 - **Langage** : Java 8 ou supérieur.
-- **Bibliothèque graphique** (si applicable) : Pour visualiser les mouvements des abeilles et des sources de nourriture, une bibliothèque graphique telle que **JavaFX** peut être utilisée.
+- **Système** : posix si vous voulez utiliser le script de compilation.
 
 ## Structure du Projet
 
@@ -60,12 +60,17 @@ Le projet est composé de plusieurs classes Java, chacune gérant des aspects sp
 ## Comment Exécuter la Simulation
 
 1. Clonez ou téléchargez le projet.
-2. Compilez le code Java en utilisant une commande comme `javac` ou un environnement de développement intégré (IDE) comme **IntelliJ IDEA** ou **Eclipse**.
-3. Exécutez la classe principale pour démarrer la simulation.
+2. Compilez le code Java en utilisant une commande comme `javac` ou utilisez ./script.sh
+3. Exécutez la classe App pour démarrer la simulation.
 
-Exemple de commande en ligne pour exécuter la simulation (en supposant que `Simulation.java` est la classe principale) :
+Exemple de commande en ligne pour exécuter la simulation:
 
 ```bash
-javac Simulation.java
-java Simulation
+javac App.java
+java App
+```
+ou
+
+```bash
+./script.sh
 ```
